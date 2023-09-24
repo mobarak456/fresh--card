@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+}
+
+@media screen and (max-width: 765px){
+    .top_heading2
+{
+display: none;
+}
+}
+@media screen and (min-width: 400px){
+    .location_section-group
+{
+display: none;
+}
+}
+@media screen and (max-width: 765px){
+    .top_heading
+{
+text-align: center;
+}
+}
+
+
+.top_heading p{
+    padding: 10px;
+}
+.shoping-_title1 h2{
+    font-weight: 700;
+}
+.location_section button{
+    background-color:#fff;
+     padding: 6px;
+     border: 1px solid gray;
+     transition: 0.6s;
+}
+.location_section button:hover{
+    background-color:#979090;
+    padding: 6px;
+    border: 1px solid gray;
+}
+.shoping-_icon i{
+    font-size: 20px; 
+    padding: 12px;
+    color: #111;
+}
+/* navbar */
+.navbar_item li a{
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav-link{
+    transition: 0.6s;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-top: 15px;
+    transition: 0.9s;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  /* carousel */
+  .carousel_image img{
+    border-radius: 5px;
+  }
+  /* owl carousel */
+  
+/* owl carousel */
+.slide_img .card{
+    width: 100px;
+    margin: 0 10px;
+    padding: 20px;
+    border: 2px solid rgb(169, 165, 165);
+    transition: 0.4s;
+    }
+    .slide_img .card:hover{
+        border: 2px solid rgb(11, 225, 11);
+    }
+    .slide_img2 img{
+        width: 100%;
+        height: 100px;
+      display: flex;
+    }
+    .Popular_Products_item .card{
+        border: 1px solid grey;
+        transition: 0.5s;
+    }
+.Popular_Products_item .card:hover{
+    border: 1px solid rgb(20, 247, 46);
+}
+.btn{
+    background: hsl(120, 96%, 51%);impotant
+    
+}
+.footer_section{
+    background-color: #F0F3F2;
+}
+.footer_section a{
+    text-decoration: none;
+    color:black;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: hsla(33, 86%, 42%, 0.986);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #1e1b1b;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #eda1a10a;
+  }
